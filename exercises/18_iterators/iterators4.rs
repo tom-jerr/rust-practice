@@ -10,6 +10,8 @@ fn factorial(num: u64) -> u64 {
     // - additional variables
     // For an extra challenge, don't use:
     // - recursion
+    // 对所有范围内数字求乘积
+    (1..=num).product()
 }
 
 fn main() {
